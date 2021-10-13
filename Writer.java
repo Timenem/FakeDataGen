@@ -11,7 +11,7 @@ import java.util.List;
 
 public class Writer {
     public static void main(String[] args) throws IOException {
-        File writeFile = new File("/home/hind/Desktop/java_proj/iteco/src/main/java/Lesson10/outFile.txt");
+        File writeFile = new File("/outFile.txt");
         List<String> content = Arrays.asList("7 ","fridays ","in " , "one week"); //create object
         FileOutputStream fileOutputStream = new FileOutputStream(writeFile);  //create out stream
         for (String str : content){
