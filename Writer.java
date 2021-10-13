@@ -12,7 +12,7 @@ import java.util.List;
 public class Writer {
     public static void main(String[] args) throws IOException {
         File writeFile = new File("/outFile.txt");
-        List<String> content = Arrays.asList("7 ","fridays ","in " , "one week"); //create object
+        List<String> content = Arrays.asList("some ","string","and ", "or"); //create object
         FileOutputStream fileOutputStream = new FileOutputStream(writeFile);  //create out stream
         for (String str : content){
             byte[] bytes = str.getBytes(StandardCharsets.UTF_8);
