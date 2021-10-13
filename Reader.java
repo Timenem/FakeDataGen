@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class Reader {
     public static void main(String[] args) throws IOException {
-        File readFile = new File("/home/hind/Desktop/java_proj/iteco/src/main/java/Lesson10/outFile.txt");
+        File readFile = new File("/outFile.txt");
         FileInputStream fist = new FileInputStream(readFile); //create input stream
         int size = fist.available(); //create arrays for read
         byte[] content = new byte[size]; //return len arrays
